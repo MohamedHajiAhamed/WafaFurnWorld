@@ -1,0 +1,68 @@
+﻿.sidebar a {
+    color: azure !important;
+}
+
+.sidebar ul li a {
+    padding: 10px;
+   
+    font-size: 18px;
+}
+
+    .sidebar ul li a i {
+        margin-right: 8px;
+    }
+
+        .sidebar ul li a i.fa-grip-vertical {
+            margin-right: 15px;
+        }
+
+.sidebar {
+    margin-left: -15px;
+}
+
+.card-icon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    .card-icon i {
+        font-size: 50px;
+        padding: 20px;
+        border-radius: 50%;
+    }
+
+.card .fa-envelope {
+    background-color: rgb(251 129 42);
+}
+
+.card .fa-boxes-stacked {
+    background-color: rgb(16 172 39);
+}
+
+.card .fa-box {
+    background-color: rgb(31 48 243);
+}
+
+.card {
+    color: white !important;
+    background-color: rgb(172, 172, 172) !important;
+}
+
+.card-body {
+    margin-top: 12px;
+}
+
+.card .card-title {
+    font-size: 20px;
+    margin-top: -15px;
+    margin-bottom: 22px;
+}
+
+.card p {
+    margin-top: 18px;
+    font-size: 22px;
+}
+
+.dashboard h1, .user-details h1, .orders h1, .add-product h1, .customer h1 {
+    margin: 40px;
+}
